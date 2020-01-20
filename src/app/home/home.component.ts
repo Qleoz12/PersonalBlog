@@ -11,6 +11,9 @@ export class HomeComponent implements OnInit
 
   lstServers: Array<String>;
   lstWebFrameworks: Array<String>;
+  lstLanguagesDev: Array<String>;
+  lstDBS: Array<String>;
+
   constructor(
     private translateService: TranslateService) {
   }
@@ -23,6 +26,16 @@ export class HomeComponent implements OnInit
 
     this.translateService.get('web.frameworks').subscribe((res: string) => {
       this.lstWebFrameworks = res.split(',');
+      console.log(this.lstWebFrameworks);
+    });
+
+    this.translateService.get('code.languages').subscribe((res: string) => {
+      this.lstLanguagesDev = res.split(',');
+      console.log(this.lstWebFrameworks);
+    });
+
+    this.translateService.get('db.dbs').subscribe((res: string) => {
+      this.lstDBS = res.split(',');
       console.log(this.lstWebFrameworks);
     });
   }

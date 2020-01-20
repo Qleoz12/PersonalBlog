@@ -57,7 +57,15 @@
     "web.sites":"sitios web completos",
     "web.frameworks":"Angular, React ",
 
+    "code.language":"lenguajes de programacion ",
+    "code.languages":"JAVA,Python,PHP,JS,Typescript,VsBasic",
+
+    "db":"bases de datos",
+    "db.dbs":"SQl Server 2008, Mysql, Mongo DB,Firebase",
+
     "server.title":"manejo de servidores web",
     "server.servers":"Servidores apache XAMPP WAMPSERVER, Servidores JAVA Jboss GlassFish Tomcat, Servidores Windows IIS "
+
+
 
 }

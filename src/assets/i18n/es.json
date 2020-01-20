@@ -7,6 +7,9 @@
     "web.sites":"sitios web completos",
     "web.sites1":"Angular, ReactJS (Single page apps)",
 
+    "code.language":"lenguajes de programacion ",
+    "code.languages":"JAVA,Python,PHP,JS,Typescript,VsBasic",
+
     "server.title":"manejo de servidores web",
     "server.1":"Kotlin, Spring Boot, Java EE JPA, Hibernate, Spring DATA Servidores apache XAMPP WAMPSERVER",
     "server.2":"Servidores Windows IIS",
