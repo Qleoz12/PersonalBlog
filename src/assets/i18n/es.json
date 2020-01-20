@@ -1,0 +1,16 @@
+{
+    "welcome.title": "Welcome!",
+    "welcome.text": "Founded in 2005, A.M. Web Expert Inc. specializes in dynamic web site architecture, design and programming...",
+
+    "mobile.text1":"creación de aplicaciones nativas android y sitios web responsive, adaptables",
+
+    "web.sites":"sitios web completos",
+    "web.sites1":"Angular, ReactJS (Single page apps)",
+
+    "server.title":"manejo de servidores web",
+    "server.1":"Kotlin, Spring Boot, Java EE JPA, Hibernate, Spring DATA Servidores apache XAMPP WAMPSERVER",
+    "server.2":"Servidores Windows IIS",
+    "server.3":"Servidores JAVA JBOSS GlassFish Tomcat"
+
+
+}

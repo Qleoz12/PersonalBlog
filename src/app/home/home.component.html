@@ -1,0 +1,213 @@
+<div class="row">
+  <div class="col-sm-12 col-md-3 col-lg-2  bg-dark">
+    <header class="developerCard text-center bg-greeen2 h-100 text-white">
+      <h1 class="blog-name pt-lg-4 mb-0">
+        <a href="index.html text-white">{{ 'developer.name' | translate }}</a>
+      </h1>
+
+      <!-- <nav class="navbar navbar-expand-lg navbar-dark" > -->
+
+      <button class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navigation"
+              aria-controls="navigation"
+              aria-expanded="true"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="navigation"
+           class="collapse show navbar-collapse flex-column px-4">
+        <div class="profile-section pt-4 pt-lg-0">
+          <img class="profile-image mb-3 rounded-circle mx-auto"
+               src="assets/images/profile.png"
+               alt="image">
+
+          <div class="bio mb-3">
+            {{ 'developer.brief' | translate }}
+            <br>
+            <a href="about.html">Find out more about me</a>
+          </div>
+          <!--//bio-->
+          <ul class="social-list list-inline py-3 mx-auto">
+            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
+          </ul>
+          <!--//social-list-->
+          <hr>
+        </div>
+        <!--//profile-section-->
+
+        <ul class="navbar-nav flex-column text-center">
+          <li class="nav-item active">
+            <a class="nav-link"
+               href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               href="blog-post.html"><i class="fas fa-bookmark fa-fw mr-2"></i>Post</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               href="about.html"><i class="fas fa-user fa-fw mr-2"></i>Tags</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               href="about.html"><i class="fas fa-user fa-fw mr-2"></i>Reading List</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+               href="about.html"><i class="fas fa-user fa-fw mr-2"></i>About Me</a>
+          </li>
+        </ul>
+
+        <div class="my-2 my-md-3">
+          <a class="btn btn-primary"
+             href="https://themes.3rdwavemedia.com/"
+             target="_blank">Get in Touch</a>
+        </div>
+      </div>
+      <!-- </nav> -->
+    </header>
+
+  </div>
+  <div class="col-sm-12 col-md-9 col-lg-10 px-4">
+    <div class="alert alert-success"
+         role="alert">
+
+      <h2>{{ 'welcome.title' | translate }}</h2>
+      <p>{{ 'welcome.text' | translate }}</p>
+
+      <div *ngIf="lang == 'fr'">
+        <p>Notre objectif principal est d'assister les entreprise &#224; d&#233;velopper des applications permettant
+          d'automatiser
+          leurs processus d'affaires. Certaine de nos applications sont distribu&#233;es &#224; travers le monde sur des
+          t&#233;l&#233;phones
+          intelligents ainsi que des tablettes!</p>
+        <p>Nous croyons...</p>
+        <ul>
+          <li>Que la qualité a toujours sa place dans la conception de logiciels</li>
+          <li>Que des utilisateurs satisfaits sont une preuve de réussite</li>
+          <li>Que le code source est question d'expérience, de compétence et de discipline</li>
+        </ul>
+      </div>
+
+      <div *ngIf="lang == 'en'">
+        <p>Our main objective is to help companies develop applications to automate their business processes. Some of
+          our
+          applications
+          are distributed around the world on smart phones and tablets!</p>
+        <p>We believe...</p>
+        <ul>
+          <li>That satisfied users are proof of successful application design</li>
+          <li>Que des utilisateurs satisfaits sont une preuve de réussite</li>
+          <li>That source code is about experience, competence and discipline</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <div class="col-md-11">
+          <div id="android_apps">
+            <a title="Android"
+               href="#">
+              <img class="center-block"
+                   src="/assets/images/mobile.jpg" /></a>
+          </div>
+
+          <p>{{ 'mobile.text1' | translate }}</p>
+
+
+          <div id="android_apps">
+            <a class="mx-auto"
+               title="Android"
+               href="https://play.google.com/store/apps/developer?id=A.M.+Web+Expert+Inc.">
+              <img class="center-block "
+                   src="/assets/images/CM_Cross-platform-dev_FB_hu9c2fc574667673ee2abb54bfc5923610_152252_940x0_resize_linear_2.png" /></a>
+          </div>
+          <div class="c-preview"></div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="col-md-11">
+          <div id="android_apps">
+            <a title="Android"
+               href="https://play.google.com/store/apps/developer?id=A.M.+Web+Expert+Inc.">
+              <img class="center-block"
+                   src="/assets/images/react-angular-vue.jfif" /></a>
+          </div>
+          <h3>{{ 'web.sites' | translate }}</h3>
+
+
+          <ul>
+            <li *ngFor="let item of lstWebFrameworks">{{item}}</li>
+          </ul>
+
+          <!-- <div>
+            <a title="Windows - Apache - MySQL - PHP"
+              href="http://www.wampserver.com/en/"><img class="center-block"
+                  src="/assets/img/wamp.png" /></a>
+          </div> -->
+        </div>
+      </div>
+
+      <div class="col-md-4 text-center  ">
+        <div class="col-md-12">
+          <h3>Web / Intranet</h3>
+
+          <ul>
+            <li><a href="https://rxjs-dev.firebaseapp.com/">RxJS</a></li>
+            <li>Kotlin, Spring Boot, Java EE</li>
+            <li>JPA, Hibernate, Spring DATA</li>
+            <li>Angular, ReactJS, AJAX, jQuery Mobile</li>
+            <li>Twitter Bootstrap, Responsive UI</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row my-5">
+
+
+      <div class="col-md-4">
+        <div class="col-md-11">
+          <h3>{{ 'server.title' | translate }}</h3>
+          <ul>
+            <li *ngFor="let item of lstServers">{{item}}</li>
+          </ul>
+        <div class="c-preview"></div>
+        </div>
+
+      </div>
+
+      <div class="col-md-4">
+        <div class="col-md-11">
+          <h3>{{ 'server.title' | translate }}</h3>
+          <ul>
+            <li *ngFor="let item of lstServers">{{item}}</li>
+          </ul>
+        <div class="c-preview"></div>
+        </div>
+
+      </div>
+
+      <div class="col-md-4">
+        <div class="col-md-11">
+          <h3>{{ 'server.title' | translate }}</h3>
+          <ul>
+            <li *ngFor="let item of lstServers">{{item}}</li>
+          </ul>
+        <div class="c-preview"></div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,67 @@
+{
+    "welcome.title": "Welcome!",
+    "welcome.text": "Founded in 2005, A.M. Web Expert Inc. specializes in dynamic web site architecture, design and programming...",
+    "developer.name":"Dann DEV",
+    "developer.brief":"Hi, my name is Dann brown. I'm a developer for 5 year, have expirience in the bothsides of the develop (backend/ frontend).",
+
+    "menu.home": "Home",
+    "menu.more": "More",
+    "menu.about": "About",
+    "menu.certifications": "Certifications",
+    "menu.technologies": "Technologies",
+    "menu.members": "Members",
+    "menu.achievements": "Achievements",
+    "menu.contacts": "Contact",
+    "menu.language": "Language",
+    "menu.language.english": "English",
+    "menu.language.french": "Français",
+
+    "welcome.see.more": "See more...",
+
+    "about.title.description": "About this application...",
+    "about.title.version": "Version",
+    "about.title.copyright": "Copyrights",
+    "about.copyright": "None",
+    "about.title.opensource": "Open source",
+    "about.opensource.notice": "This software uses open source libraries distibuted under the following licences:",
+
+    "generic.network.error": "Network error. Please verify the server address and internet connection and try again.",
+    "generic.start": "Start",
+    "generic.stop": "Stop",
+    "generic.refresh" : "Refresh",
+    "generic.ok" : "OK",
+    "generic.delete" : "Delete",
+    "generic.save" : "Save",
+    "generic.submit" : "Save",
+    "generic.cancel" : "Cancel",
+    "generic.add" : "Add",
+    "generic.remove" : "Remove",
+    "generic.modify" : "Modify",
+    "generic.yes" : "Yes",
+    "generic.no" : "No",
+    "generic.searching": "Searching :",
+    "generic.message.technical.error" : "A technical error has occured.",
+    "generic.message.save.success" : "Data saved successfuly",
+    "generic.title.info" : "Information",
+    "generic.title.error" : "Error",
+    "generic.title.warning" : "Warning",
+    "generic.question.delete": "Remove this item?",
+    "generic.confirm.title": "Confirmation",
+
+    "validation.required": "You must provide a value for this field",
+    "validation.pattern": "Invalid value for this field",
+    "validation.range": "Field value out of bounds",
+    "validation.range.explicit": "Value must be within {{min}} and {{max}} range",
+
+
+    "mobile.text1" : "Natives Android or Responsive webapps",
+
+    "web.sites":"sitios web completos",
+    "web.frameworks":"Angular, ReactJS ",
+
+    "server.title":"manejo de servidores web",
+    "server.1":"Kotlin, Spring Boot, Java EE JPA, Hibernate, Spring DATA Servidores apache XAMPP WAMPSERVER",
+    "server.2":"Servidores Windows IIS",
+    "server.3":"Servidores JAVA JBOSS GlassFish Tomcat"
+
+}

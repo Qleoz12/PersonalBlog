@@ -1,0 +1,32 @@
+/* Show it's not fixed to the top */
+body {
+  /* min-height: 75rem; */
+}
+
+.bg-greeen2{
+  background: #5FCB71;
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(95, 203, 113);}
+
+
+  /* override the css from boostrap theme */
+
+  /* developer card */
+
+  .developerCard a
+  {
+    color: aliceblue;
+  }
+
+
+  .developerCard .social-list a{
+    color: #347474;
+  }
