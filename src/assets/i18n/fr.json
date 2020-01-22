@@ -60,7 +60,10 @@
     "web.frameworks":"Angular, React ",
 
     "code.language":"lenguajes de programacion ",
-    "code.languages":"JAVA,Python,PHP,JS,Typescript,VsBasic",
+    "code.languages":[ {"nombre": "JAVA", "img":"/assets/images/devIcons/java.png"},
+                        {"nombre": "JS", "img":"/assets/images/devIcons/java.png"},
+                         {"nombre": "python", "img":"/assets/images/devIcons/java.png"},
+                         {"nombre": "php", "img":"/assets/images/devIcons/java.png"}],
 
     "db":"bases de datos",
     "db.dbs":"SQl Server 2008, Mysql, Mongo DB,Firebase",

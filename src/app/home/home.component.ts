@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { DevLanguaje } from 'src/Interfaces/devLanguaje.interface';
 
 @Component({
   selector: 'app-home',
@@ -11,7 +12,7 @@ export class HomeComponent implements OnInit
 
   lstServers: Array<String>;
   lstWebFrameworks: Array<String>;
-  lstLanguagesDev: Array<String>;
+  lstLanguagesDev: DevLanguaje = {};
   lstDBS: Array<String>;
 
   constructor(
@@ -24,19 +25,21 @@ export class HomeComponent implements OnInit
       console.log(this.lstServers);
     });
 
-    this.translateService.get('web.frameworks').subscribe((res: string) => {
+     this.translateService.get('web.frameworks').subscribe((res: string) => {
       this.lstWebFrameworks = res.split(',');
       console.log(this.lstWebFrameworks);
     });
 
-    this.translateService.get('code.languages').subscribe((res: string) => {
-      this.lstLanguagesDev = res.split(',');
-      console.log(this.lstWebFrameworks);
-    });
+
 
     this.translateService.get('db.dbs').subscribe((res: string) => {
       this.lstDBS = res.split(',');
       console.log(this.lstWebFrameworks);
+    });
+
+    this.translateService.get('code.languages').subscribe((res: DevLanguaje) => {
+      this.lstLanguagesDev = res;
+      console.log(res);
     });
   }
 
