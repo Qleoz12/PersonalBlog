@@ -4,6 +4,10 @@
     "developer.name":"Dann DEV",
     "developer.brief":"Hi, my name is Dann brown. I'm a developer for 5 year, have expirience in the bothsides of the develop (backend/ frontend).",
 
+    "menu.language":"Lenguaje",
+    "menu.language.english": "English",
+    "menu.language.french": "Français",
+    "menu.language.Español": "Español",
     "menu.home": "Accueil",
     "menu.more": "Plus",
     "menu.about": "À propos",
@@ -12,9 +16,7 @@
     "menu.members": "Membres",
     "menu.achievements": "Réalisations",
     "menu.contacts": "Nous rejoindre",
-    "menu.language": "Langue",
-    "menu.language.english": "English",
-    "menu.language.french": "Français",
+
 
     "welcome.see.more": "En savoir plus...",
 
