@@ -59,18 +59,104 @@ img {
 
 
 
-.single-before
+.card
 {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  border-radius: 16px;
+  width: 360px;
+  height: 360px;
+  background: url(https://picsum.photos/360/360?image=0);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 5px 50px rgba(#000,.85);
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  &:before
+  {  content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(#000,.92);
+  }
+  .img
+  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
 
-  li:before{
-  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%' viewBox='-3 -1 16 16' preserveAspectRatio='xMidYMid meet'><path d='M5,12 C20,0 5,-2 5,3.5 C5,-2 -10,0 5,12 Z' fill='red' stroke='magenta' stroke-width='1'/></svg>");
-  background-size:90%;
-  background-position:center;
-  transition: background-size 0.3s;
-  -webkit-transition: background-size 0.3s;
+    picture
+    {
+      width: 25%;
+      height: 100%;
+      transition: .5s;
+      background-color: red;
+      overflow: hidden;
+      position: relative;
+      &:nth-child(1)
+      {
+        transition-delay: 0}
+      &:nth-child(2) {
+        transition-delay: .1s}
+      &:nth-child(3){
+        transition-delay: .2s}
+      &:nth-child(4){
+        transition-delay: .3s
+      }
+
+      &:nth-child(2)>img
+      {
+        left:-100%;
+      }
+      &:nth-child(3)>img
+      {
+        left:-200%;
+      }
+      &:nth-child(4)>img
+      {
+        left:-300%;
+      }
+
+       img
+       {
+         position: absolute;
+         overflow: hidden;
+         height: 100%;
+         width: 400%;
+       }
+    }
+
+  }
 }
 
+.card:hover{
+  .img>picture {
+    transform: translateY(-100%)}
+  .content{
+    transform: translateY(0%);
+    transition: 1s;
+    transition-delay: .1s}
+  }
+
+.content{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white ;
+  padding: 20px 20px;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+
+  h1, h2, h3, h4, h5, h6
+  {
+    color: white ;
+    font-size: 20px;
+  }
 }

@@ -65,8 +65,6 @@
     "code.languages":"JAVA,Python,PHP,JS,Typescript,VsBasic",
 
     "server.title":"manejo de servidores web",
-    "server.1":"Kotlin, Spring Boot, Java EE JPA, Hibernate, Spring DATA Servidores apache XAMPP WAMPSERVER",
-    "server.2":"Servidores Windows IIS",
-    "server.3":"Servidores JAVA JBOSS GlassFish Tomcat"
+    "server.servers":"Servidores apache XAMPP WAMPSERVER, Servidores JAVA Jboss GlassFish Tomcat, Servidores Windows IIS "
 
 }
