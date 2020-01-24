@@ -62,8 +62,9 @@ img {
 .card
 {
   border-radius: 16px;
-  width: 360px;
-  height: 360px;
+  border:none;
+  width: 100%;
+  height: fit-content;
   background: url(https://picsum.photos/360/360?image=0);
   position: relative;
   overflow: hidden;
@@ -78,7 +79,7 @@ img {
     width: 100%;
     height: 100%;
     top: 0;
-    background-color: rgba(#000,.92);
+    background-color: rgba(#000,.72);
   }
   .img
   {
@@ -94,7 +95,6 @@ img {
       width: 25%;
       height: 100%;
       transition: .5s;
-      background-color: red;
       overflow: hidden;
       position: relative;
       &:nth-child(1)
@@ -149,7 +149,7 @@ img {
   align-items: center;
   flex-direction: column;
   color: white ;
-  padding: 20px 20px;
+  padding: 15px 15px;
   width: 100%;
   height: 100%;
   transform: translateY(100%);
@@ -157,6 +157,6 @@ img {
   h1, h2, h3, h4, h5, h6
   {
     color: white ;
-    font-size: 20px;
+    font-size: 21px;
   }
 }

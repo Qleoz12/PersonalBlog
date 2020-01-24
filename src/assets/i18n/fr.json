@@ -1,8 +1,14 @@
 {
-    "welcome.title": "Bienvenue !",
-    "welcome.text": "Fondée en 2005, A.M. Web Expert Inc. oeuvre dans l'architecture, la conception et la programmation...",
+    "welcome.title": "Bienvenido!",
+    "welcome.text": "Desarrollador junior",
     "developer.name":"Dann DEV",
     "developer.brief":"Hi, my name is Dann brown. I'm a developer for 5 year, have expirience in the bothsides of the develop (backend/ frontend).",
+    "developer.linkedin":"https://www.linkedin.com/in/leonardo-sanchez-89590b127/",
+    "developer.github":"https://github.com/Qleoz12",
+    "developer.stackoverflow":"https://stackoverflow.com/users/7258885/qleoz12?tab=profile",
+    "developer.codepen":"https://codepen.io/Qleoz12/pens/public?grid_type=list",
+
+    "welcome.text2":"pienso que el principal objetivo es ayudar a las empresas a desarrollar aplicaciones para automatizar sus procesos comerciales.  ¡Algunas de nuestras aplicaciones se distribuyen a nivel nacional en teléfonos inteligentes y tabletas!    Creemos... Esa calidad siempre tiene un lugar en                   el diseño de software Que los usuarios satisfechos son prueba de éxito Que el código fuente es una cuestión de experiencia, habilidad y disciplina.",
 
     "menu.language":"Lenguaje",
     "menu.language.english": "English",
@@ -60,10 +66,10 @@
     "web.frameworks":"Angular, React ",
 
     "code.language":"lenguajes de programacion ",
-    "code.languages":[ {"nombre": "JAVA", "img":"/assets/images/devIcons/java.png"},
-                        {"nombre": "JS", "img":"/assets/images/devIcons/java.png"},
-                         {"nombre": "python", "img":"/assets/images/devIcons/java.png"},
-                         {"nombre": "php", "img":"/assets/images/devIcons/java.png"}],
+    "code.languages":[ {"nombre": "JAVA", "img":"/assets/images/devIcons/java.png", "nivel":"Fullstack"},
+                        {"nombre": "JS", "img":"/assets/images/devIcons/JS.png","nivel":"junior"},
+                         {"nombre": "python", "img":"/assets/images/devIcons/phyton.png","nivel":"junior"},
+                         {"nombre": "php", "img":"/assets/images/devIcons/php.png","nivel":"junior"}],
 
     "db":"bases de datos",
     "db.dbs":"SQl Server 2008, Mysql, Mongo DB,Firebase",

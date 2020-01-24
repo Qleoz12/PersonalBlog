@@ -32,10 +32,10 @@
           <!--//bio-->
           <ul class="social-list list-inline py-3 mx-auto">
             <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-            <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-            <li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
-            <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
-            <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
+            <li class="list-inline-item"><a href="{{ 'developer.linkedin' | translate }}"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+            <li class="list-inline-item"><a href="{{ 'developer.github' | translate }}"><i class="fab fa-github-alt fa-fw"></i></a></li>
+            <li class="list-inline-item"><a href="{{ 'developer.stackoverflow' | translate }}"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
+            <li class="list-inline-item"><a href="{{ 'developer.codepen' | translate }}"><i class="fab fa-codepen fa-fw"></i></a></li>
           </ul>
           <!--//social-list-->
           <hr>
@@ -82,32 +82,9 @@
       <h2>{{ 'welcome.title' | translate }}</h2>
       <p>{{ 'welcome.text' | translate }}</p>
 
-      <div *ngIf="lang == 'fr'">
-        <p>Notre objectif principal est d'assister les entreprise &#224; d&#233;velopper des applications permettant
-          d'automatiser
-          leurs processus d'affaires. Certaine de nos applications sont distribu&#233;es &#224; travers le monde sur des
-          t&#233;l&#233;phones
-          intelligents ainsi que des tablettes!</p>
-        <p>Nous croyons...</p>
-        <ul>
-          <li>Que la qualité a toujours sa place dans la conception de logiciels</li>
-          <li>Que des utilisateurs satisfaits sont une preuve de réussite</li>
-          <li>Que le code source est question d'expérience, de compétence et de discipline</li>
-        </ul>
-      </div>
+      <p>{{ 'welcome.text2' | translate }}</p>
 
-      <div *ngIf="lang == 'en'">
-        <p>Our main objective is to help companies develop applications to automate their business processes. Some of
-          our
-          applications
-          are distributed around the world on smart phones and tablets!</p>
-        <p>We believe...</p>
-        <ul>
-          <li>That satisfied users are proof of successful application design</li>
-          <li>Que des utilisateurs satisfaits sont une preuve de réussite</li>
-          <li>That source code is about experience, competence and discipline</li>
-        </ul>
-      </div>
+
 
     </div>
 
@@ -118,7 +95,7 @@
             <a title="Android"
                href="#">
               <img class="center-block"
-                   src="/ass/assets/images/mobile.jpg" /></a>
+                   src="/assets/images/mobile.jpg" /></a>
           </div>
 
           <p>{{ 'mobile.text1' | translate }}</p>
@@ -175,7 +152,7 @@
     <div class="row my-5">
 
 
-      <div class="col-md-4">
+      <div class="col-md-6 col-lg-4">
         <div class="col-md-11">
           <h3>{{ 'server.title' | translate }}</h3>
           <ul>
@@ -186,18 +163,39 @@
 
       </div>
 
-      <div class="col-md-4">
-        <div class="col-md-11">
-          <h3>{{ 'code.language' | translate }}</h3>
-          <ul>
-            <li *ngFor="let item of lstLanguagesDev">{{item.nombre}}</li>
-          </ul>
-          <div class="c-preview"></div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="col-md-11 row">
+        <h3>{{ 'code.language' | translate }}</h3>
+          <br>
+        <div class="col-sm-6 col-md-6 my-3"
+             *ngFor="let item of lstLanguagesDev">
+          <div class="col-md-11">
+            <div class="card">
+              <div class="img">
+                <picture>
+                  <img src="{{item.img}}">
+                </picture>
+                <picture>
+                  <img src="{{item.img}}">
+                </picture>
+                <picture>
+                  <img src="{{item.img}}">
+                </picture>
+                <picture>
+                  <img src="{{item.img}}">
+                </picture>
+              </div>
+              <div class="content">
+                <h4> {{item.nombre}}</h4>
+                <h4>{{item.nivel}}</h4>
+              </div>
+            </div>
+          </div>
         </div>
-
+      </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4 col-lg-4">
         <div class="col-md-11">
           <h3>{{ 'db' | translate }}</h3>
           <ul class="single-before">
@@ -207,33 +205,7 @@
         </div>
       </div>
 
-      <div class="col-md-4">
-        <div class="col-md-6">
-          <div class="card">
-            <div class="img">
-              <picture>
-                <img src="/assets/images/devIcons/java.png">
-              </picture>
-               <picture>
-                <img src="/assets/images/devIcons/java.png">
-              </picture>
-              <picture>
-                <img src="/assets/images/devIcons/java.png">
-              </picture>
-              <picture>
-                <img src="/assets/images/devIcons/java.png">
-              </picture>
-            </div>
-            <div class="content">
-              <h4> JAVA STD y JAVAEE</h4>
-              <h4>FullStack</h4>
-              <h5>usando JAVA es la mejor forma de tener un backend robusto y controlable,
-                  las arquitecturas javas son una de las mas solidas del mercado
-                  y es un facinante mundo a la cantidad de frameworks y madurez de el lenguaje</h5>
-            </div>
-          </div>
-        </div>
-      </div>
+
 
 
     </div>

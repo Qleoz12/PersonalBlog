@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit
 
   lstServers: Array<String>;
   lstWebFrameworks: Array<String>;
-  lstLanguagesDev: Array<DevLanguaje>;
+  public lstLanguagesDev: Array<DevLanguaje>;
   lstDBS: Array<String>;
 
   constructor(
@@ -37,7 +37,7 @@ export class HomeComponent implements OnInit
 
     });
 
-    this.translateService.get('code.languages').subscribe((res: DevLanguaje) => {
+    this.translateService.get('code.languages').subscribe((res: DevLanguaje[]) => {
       this.lstLanguagesDev = res;
 
     });
