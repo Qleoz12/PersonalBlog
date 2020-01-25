@@ -8,6 +8,37 @@
     "developer.stackoverflow":"https://stackoverflow.com/users/7258885/qleoz12?tab=profile",
     "developer.codepen":"https://codepen.io/Qleoz12/pens/public?grid_type=list",
 
+    "certs.summary":" Experto Web que está convencido de que la capacitación y la certificación no solo son prueba de competencia, sino una forma de aprender Las tecnologías según los avances actuales y experiencia de expertos. Por eso se han obtenido las siguientes certificaciones sobre los años como educación continua:",
+    "certs.java":[
+                    {"nombre": "Programacion Web JAVA JEE",
+                        "img":"/assets/images/certs/java.png",
+                        "place":"Universidad Nacional, bogotá",
+                        "year":"2019"},
+                    {"nombre":"Desarrollo De Applets, aplicaciones Con Uso De Base De Datos, Redes, Servlets Y Multimedia",
+                        "img":"/assets/images/certs/java.png",
+                        "place":"SENA,Bogotá",
+                        "year":"2017" },
+                    {"nombre":"Desarrollo De Aplicaciones Con Interfaz Gráfica, Manejo De Eventos, Clases Y Objetos Java",
+                    "img":"/assets/images/certs/java.png",
+                    "place":"SENA,Bogotá",
+                    "year":"2016"}
+
+                 ],
+    "certs.web":[
+                    {"nombre": "Desarrollo de aplicaciones Web",
+                        "img":"/assets/images/certs/java.png",
+                        "place":"Universidad Antonio Nariño, bogotá",
+                        "year":"2015"},
+                    {"nombre":"Sass WorkFlow",
+                        "img":"/assets/images/certs/java.png",
+                        "place":"Udemy",
+                        "year":"2016" },
+                    {"nombre":"Boostrap Developer",
+                    "img":"/assets/images/certs/java.png",
+                    "place":"Udemy",
+                    "year":"2015"}
+
+                 ],
     "welcome.text2":"pienso que el principal objetivo es ayudar a las empresas a desarrollar aplicaciones para automatizar sus procesos comerciales.  ¡Algunas de nuestras aplicaciones se distribuyen a nivel nacional en teléfonos inteligentes y tabletas!    Creemos... Esa calidad siempre tiene un lugar en                   el diseño de software Que los usuarios satisfechos son prueba de éxito Que el código fuente es una cuestión de experiencia, habilidad y disciplina.",
 
     "menu.language":"Lenguaje",
@@ -17,7 +48,7 @@
     "menu.home": "Accueil",
     "menu.more": "Plus",
     "menu.about": "À propos",
-    "menu.certifications": "Certifications",
+    "menu.certifications": "Certificaciones",
     "menu.technologies": "Technologies",
     "menu.members": "Membres",
     "menu.achievements": "Réalisations",
@@ -70,6 +101,7 @@
                         {"nombre": "JS", "img":"/assets/images/devIcons/JS.png","nivel":"junior"},
                          {"nombre": "python", "img":"/assets/images/devIcons/phyton.png","nivel":"junior"},
                          {"nombre": "php", "img":"/assets/images/devIcons/php.png","nivel":"junior"}],
+
 
     "db":"bases de datos",
     "db.dbs":"SQl Server 2008, Mysql, Mongo DB,Firebase",
