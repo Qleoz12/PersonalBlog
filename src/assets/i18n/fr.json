@@ -104,7 +104,24 @@
 
 
     "db":"bases de datos",
-    "db.dbs":"SQl Server 2008, Mysql, Mongo DB,Firebase",
+    "db.dbs":
+    [
+        {"nombre": "SQl Server 2008",
+         "img":"/assets/images/DBImages/SQLServer.png",
+         "year":"2009"},
+        {"nombre":"Mysql",
+         "img":"/assets/images/DBImages/MYSQL.png",
+         "year":"2019" },
+        {"nombre":"Mongo DB",
+         "img":"/assets/images/DBImages/mongo.jpg",
+         "place":"Udemy",
+         "year":"2009"},
+        {"nombre":"Firebase",
+         "img":"/assets/images/DBImages/firebase.png",
+          "place":"Udemy",
+          "year":"2012"}
+
+     ],
 
     "server.title":"manejo de servidores web",
     "server.servers":"Servidores apache XAMPP WAMPSERVER, Servidores JAVA Jboss GlassFish Tomcat, Servidores Windows IIS "

@@ -19,6 +19,8 @@ import { AchievementsComponent } from './achievements/achievements.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { DemosComponent } from './demos/demos.component';
 import { NgxSpinnerModule } from 'ngx-spinner';
+import { DBcardComponent } from './cards/dbcard/dbcard.component';
+import { FramecardComponent } from './cards/framecard/framecard.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -61,6 +63,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     AchievementsComponent,
     ContactsComponent,
     DemosComponent,
+    DBcardComponent,
+    FramecardComponent,
   ],
   bootstrap: [AppComponent]
 })

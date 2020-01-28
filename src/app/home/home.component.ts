@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { DevLanguaje } from '../Interfaces/devLanguaje.interface';
+import { DBData } from '../Interfaces/dbdata.interface';
 
 @Component({
   selector: 'app-home',
@@ -12,8 +13,8 @@ export class HomeComponent implements OnInit
 
   lstServers: Array<String>;
   lstWebFrameworks: Array<String>;
-  public lstLanguagesDev: Array<DevLanguaje>;
-  lstDBS: Array<String>;
+  lstLanguagesDev: Array<DevLanguaje>;
+  lstDBS: Array<DBData>;
 
   constructor(
     private translateService: TranslateService) {
@@ -32,8 +33,9 @@ export class HomeComponent implements OnInit
 
 
 
-    this.translateService.get('db.dbs').subscribe((res: string) => {
-      this.lstDBS = res.split(',');
+    this.translateService.get('db.dbs').subscribe((res: DBData[]) => {
+      this.lstDBS = res;
+      console.log(this.lstDBS[0]);
 
     });
 
