@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Social } from '../../Interfaces/social.interface';
 
 @Component({
   selector: 'app-socialcard',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SocialcardComponent implements OnInit {
 
-  @Input() pepe: DBData;
+  @Input() dataIntance: Social[];
   constructor() { }
 
   ngOnInit() {

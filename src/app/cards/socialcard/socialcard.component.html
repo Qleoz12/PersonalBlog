@@ -1,27 +1,8 @@
-<ul class="d-flex justify-content-around social-list list-inline py-3 mx-auto">
-  <li class="list-inline-item">
-    <a href="#">
-      <i class="fab fa-twitter fa-fw"></i>
-    </a>
-  </li>
-  <li class="list-inline-item">
-    <a href="{{ 'developer.linkedin' | translate }}">
-      <i class="fab fa-linkedin-in fa-fw" [ngStyle]="{'color': width }"></i>
-    </a>
-  </li>
-  <li class="list-inline-item">
-    <a href="{{ 'developer.github' | translate }}">
-      <i class="fab fa-github-alt fa-fw"></i>
-    </a>
-  </li>
-  <li class="list-inline-item">
-    <a href="{{ 'developer.stackoverflow' | translate }}">
-      <i class="fab fa-stack-overflow fa-fw"></i>
-    </a>
-  </li>
-  <li class="list-inline-item">
-    <a href="{{ 'developer.codepen' | translate }}">
-      <i class="fab fa-codepen fa-fw"></i>
+<ul class="d-flex justify-content-around flex-wrap social-list list-inline py-3 mx-auto">
+  <li *ngFor="let item of dataIntance"
+      class="list-inline-item py-1">
+    <a href={{item.url}}>
+      <i [ngClass]="item.icon" [ngStyle]="{'color':  item.color}" ></i>
     </a>
   </li>
 </ul>

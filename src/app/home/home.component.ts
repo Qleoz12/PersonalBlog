@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { DevLanguaje } from '../Interfaces/devLanguaje.interface';
 import { DBData } from '../Interfaces/dbdata.interface';
+import { Social } from '../Interfaces/social.interface';
 
 @Component({
   selector: 'app-home',
@@ -15,6 +16,7 @@ export class HomeComponent implements OnInit
   lstWebFrameworks: Array<String>;
   lstLanguagesDev: Array<DevLanguaje>;
   lstDBS: Array<DBData>;
+  lstSocialNets: Array<Social>;
 
   constructor(
     private translateService: TranslateService) {
@@ -42,6 +44,11 @@ export class HomeComponent implements OnInit
     this.translateService.get('code.languages').subscribe((res: DevLanguaje[]) => {
       this.lstLanguagesDev = res;
 
+    });
+
+    this.translateService.get('social.nets').subscribe((res: Social[]) => {
+      this.lstSocialNets = res;
+      console.log(this.lstSocialNets);
     });
   }
 

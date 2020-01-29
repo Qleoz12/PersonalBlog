@@ -5,21 +5,36 @@
     "developer.brief":"Hi, my name is Dann brown. I'm a developer for 5 year, have expirience in the bothsides of the develop (backend/ frontend).",
     "social.nets":[
         {
-          "nombre": "linkedin",
-          "color":"#40e0d0",
-          "icon":"fab fa-stack-overflow fa-fw"
+            "nombre": "tweeter",
+            "url": "#",
+            "color":"#40e0d0",
+            "icon":"fab fa-twitter fa-fw"
         },
         {
-            "nombre": "linkedin",
-            "color":"#40e0d0",
+          "nombre": "linkedin",
+          "url": "https://www.linkedin.com/in/leonardo-sanchez-89590b127/",
+          "color":"#0077b5",
+          "icon":"fab fa-linkedin-in fa-fw"
+        },
+        {
+            "nombre": "github",
+            "url": "https://github.com/Qleoz12/",
+            "color":"#24292e",
+            "icon":"fab fa-github-alt fa-fw"
+        },
+        {
+            "nombre": "stackoverflow",
+            "url": "https://stackoverflow.com/users/7258885/qleoz12?tab=profile",
+            "color":"#f48024",
             "icon":"fab fa-stack-overflow fa-fw"
-          }
-    ]
-    "developer.linkedin":"https://www.linkedin.com/in/leonardo-sanchez-89590b127/",
-    "developer.github":"https://github.com/Qleoz12",
-    "developer.stackoverflow":"https://stackoverflow.com/users/7258885/qleoz12?tab=profile",
-    "developer.codepen":"https://codepen.io/Qleoz12/pens/public?grid_type=list",
-
+        },
+        {
+            "nombre": "codepen",
+            "url": "https://codepen.io/Qleoz12/pens/public?grid_type=list",
+            "color":"#343a40",
+            "icon":"fab fa-codepen fa-fw"
+        }
+    ],
     "certs.summary":" Experto Web que está convencido de que la capacitación y la certificación no solo son prueba de competencia, sino una forma de aprender Las tecnologías según los avances actuales y experiencia de expertos. Por eso se han obtenido las siguientes certificaciones sobre los años como educación continua:",
     "certs.java":[
                     {"nombre": "Programacion Web JAVA JEE",
