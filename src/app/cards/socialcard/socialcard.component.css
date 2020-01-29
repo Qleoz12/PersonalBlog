@@ -1,0 +1,14 @@
+:host
+{
+    width: 100%;
+}
+.social-list a
+{
+    width: 3rem;
+
+}
+.social-list a:hover
+{
+ background-color: #343a40;
+}
+

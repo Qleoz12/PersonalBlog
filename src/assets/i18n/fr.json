@@ -3,6 +3,18 @@
     "welcome.text": "Desarrollador junior",
     "developer.name":"Dann DEV",
     "developer.brief":"Hi, my name is Dann brown. I'm a developer for 5 year, have expirience in the bothsides of the develop (backend/ frontend).",
+    "social.nets":[
+        {
+          "nombre": "linkedin",
+          "color":"#40e0d0",
+          "icon":"fab fa-stack-overflow fa-fw"
+        },
+        {
+            "nombre": "linkedin",
+            "color":"#40e0d0",
+            "icon":"fab fa-stack-overflow fa-fw"
+          }
+    ]
     "developer.linkedin":"https://www.linkedin.com/in/leonardo-sanchez-89590b127/",
     "developer.github":"https://github.com/Qleoz12",
     "developer.stackoverflow":"https://stackoverflow.com/users/7258885/qleoz12?tab=profile",

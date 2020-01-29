@@ -21,6 +21,7 @@ import { DemosComponent } from './demos/demos.component';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { DBcardComponent } from './cards/dbcard/dbcard.component';
 import { FramecardComponent } from './cards/framecard/framecard.component';
+import { SocialcardComponent } from './cards/socialcard/socialcard.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -65,6 +66,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     DemosComponent,
     DBcardComponent,
     FramecardComponent,
+    SocialcardComponent,
   ],
   bootstrap: [AppComponent]
 })
