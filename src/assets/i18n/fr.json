@@ -76,12 +76,14 @@
     "menu.language.Español": "Español",
     "menu.home": "Accueil",
     "menu.more": "Plus",
-    "menu.about": "À propos",
+    "menu.demos": "Demos",
+    "menu.about": "Acerca de",
+    "menu.infoBlog": "Informacion Blog",
     "menu.certifications": "Certificaciones",
-    "menu.technologies": "Technologies",
+    "menu.technologies": "Tecnologías",
     "menu.members": "Membres",
     "menu.achievements": "Réalisations",
-    "menu.contacts": "Nous rejoindre",
+    "menu.contacts": "Contacto",
 
 
     "welcome.see.more": "En savoir plus...",
@@ -124,6 +126,20 @@
     "mobile.text1":"création d'applications Android natives et de sites Web réactifs, adaptables",
     "web.sites":"sitios web completos",
     "web.frameworks":"Angular, React ",
+
+    "technologies.summary":"Las tecnologías evolucionan constantemente y la experiencia es la suma del conocimiento acumulado por un equipo de expertos. Sin ser exhaustivas, las siguientes tecnologías son una parte integral de las habilidades adquiridas a lo largo de los años.",
+    "technologies.Languajes":"Lenguajes de Programacion",
+    "technologies.devTools":"Herramientas de desarrollo",
+    "technologies.Webserver":"Webapp servers",
+    "technologies.Oss":"Sistemas Operativos",
+    "technologies.Uis":"Interfaces de Usuario (UI)",
+    "technologies.ToolsandFrameWorks":"Herramientas y frameworks",
+    "technologies.DBs":"Bases de datos",
+    "technologies.otherTechs":"Otras Tecnologias",
+
+    "demos.summary":"Demos y pruebas de concepto",
+
+
 
     "code.language":"lenguajes de programacion ",
     "code.languages":[ {"nombre": "JAVA", "img":"/assets/images/devIcons/java.png", "nivel":"Fullstack"},

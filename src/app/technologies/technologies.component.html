@@ -2,36 +2,24 @@
 
   <h3>{{ 'menu.technologies' | translate }}</h3>
 
-  <div *ngIf="lang == 'fr'">
-    <p>Les technologies évoluent sans cesse et l'expérience est la somme de l'accumulation des connaissances d'une équipe d'experts.
-      <br> Sans être exhaustif, les technologies suivantes font partie intégrante des compétences acquises au fil des années
-      par André.
+    <p>
+      {{ 'technologies.summary' | translate }}
     </p>
-  </div>
-
-  <div *ngIf="lang == 'en'">
-    <p>Technologies are constantly evolving and experience is the sum of the accumulated knowledge of a team of experts.
-      <br> Without being exhaustive, the following technologies are an integral part of the skills acquired over the years
-      by André.
-    </p>
-  </div>
 
 </div>
 
-<div class="row">
+<div class="row px-4">
   <div class="col-md-4">
-    <h3 *ngIf="lang == 'fr'">Langages de programmation</h3>
-    <h3 *ngIf="lang == 'en'">Programming languages</h3>
+
+    <h3>{{ 'technologies.Languajes' | translate }}</h3>
     <ul>
       <li>Kotlin / JAVA / JEE / Android</li>
       <li>Typescript, JavaScript, Lisp, Groovy</li>
       <li>Transact-SQL (SQL Server, Sybase), PL/SQL (Oracle)</li>
-      <li>Perl, UNIX Shell Scripts (sh, ksh)</li>
     </ul>
   </div>
   <div class="col-md-4">
-    <h3 *ngIf="lang == 'fr'">Outils de développement</h3>
-    <h3 *ngIf="lang == 'en'">Development tools</h3>
+    <h3>{{ 'technologies.devTools' | translate }}</h3>
     <ul>
       <li>VSCode, IntelliJ IDE, Eclipse, BEA Workshop, WebSphere RAD</li>
       <li>Maven, Jenkins, Sonar, Artifactory, jUnit 5</li>
@@ -39,30 +27,26 @@
     </ul>
   </div>
   <div class="col-md-4">
-    <h3 *ngIf="lang == 'fr'">Serveurs applicatifs</h3>
-    <h3 *ngIf="lang == 'en'">Webapp servers</h3>
+
+    <h3>{{ 'technologies.Webserver' | translate }}</h3>
     <ul>
-      <li>WebLogic, WebSphere, iPlanet, Sun One</li>
       <li>Open Source: JBoss, Tomcat, Jetty, NanoHTTPD</li>
-      <li>WAMP: PHP, MySQL, Apache</li>
+      <li>LAMP,XAMPP, WAMP: PHP, MySQL, Apache</li>
     </ul>
   </div>
 </div>
 <!-- row -->
 
-<div class="row">
+<div class="row px-4">
   <div class="col-md-4">
-    <h3 *ngIf="lang == 'fr'">Systèmes d'exploitation</h3>
-    <h3 *ngIf="lang == 'en'">Operating systems</h3>
+    <h3>{{ 'technologies.Oss' | translate }}</h3>
     <ul>
-      <li>UNIX Solaris</li>
-      <li>Linux, CentOS</li>
+      <li>Linux, Ubuntu,CentOS</li>
       <li>Windows 7, 10</li>
     </ul>
   </div>
   <div class="col-md-4">
-    <h3 *ngIf="lang == 'fr'">Interfaces utilisateur (UI)</h3>
-    <h3 *ngIf="lang == 'en'">User interface (UI)</h3>
+    <h3>{{ 'technologies.Uis' | translate }}</h3>
     <ul>
       <li>HTML5, CSS3, SCSS, Twitter Bootstrap 4.x</li>
       <li>Angular 8.x, @ngrx/store, Jasmine, Karma</li>
@@ -70,8 +54,9 @@
     </ul>
   </div>
   <div class="col-md-4">
-    <h3 *ngIf="lang == 'fr'">Outils / Frameworks</h3>
-    <h3 *ngIf="lang == 'en'">Tools & frameworks</h3>
+
+    <h3>{{ 'technologies.ToolsandFrameWorks' | translate }}</h3>
+
     <ul>
       <li>Swagger, Postman, SoapUI, Selenium</li>
       <li>PgAdmin, SQuirreL SQL, AquaData Studio, TOAD, MySQL</li>
@@ -81,23 +66,17 @@
 </div>
 <!-- row -->
 
-<div class="row">
+<div class="row px-4">
   <div class="col-md-4">
-    <h3 *ngIf="lang == 'fr'">Bases de données</h3>
-    <h3 *ngIf="lang == 'en'">Databases (DBMS)</h3>
+    <h3>{{ 'technologies.DBs' | translate }}</h3>
     <ul>
-      <li>Oracle</li>
-      <li>PosgreSQL</li>
-      <li>Sybase</li>
-      <li>DB2</li>
       <li>SQLite</li>
       <li>Microsoft SQL Server</li>
       <li>MySQL, H2, HSQLDB</li>
     </ul>
   </div>
   <div class="col-md-4">
-    <h3 *ngIf="lang == 'fr'">Diverses technologies</h3>
-    <h3 *ngIf="lang == 'en'">Other technologies</h3>
+    <h3>{{ 'technologies.otherTechs' | translate }}</h3>
     <ul>
       <li>PCF (Pivotal Cloud Foundry), Concourse</li>
       <li>Google Cloud, GAE Datastore, Objectify, Google Spreadsheet API</li>

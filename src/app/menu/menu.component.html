@@ -61,20 +61,8 @@
 
       <a class="nav-item nav-link"
          (click)="navItemClick($event)"
-         routerLink="/members">
-        {{ 'menu.members' | translate }}
-      </a>
-
-      <a class="nav-item nav-link"
-         (click)="navItemClick($event)"
-         routerLink="/achievements">
-        {{ 'menu.achievements' | translate }}
-      </a>
-
-      <a class="nav-item nav-link"
-         (click)="navItemClick($event)"
          routerLink="/demos">
-        POC
+         {{ 'menu.demos' | translate }}
       </a>
 
       <li class="nav-item dropdown">
@@ -91,7 +79,7 @@
              aria-labelledby="bd-versions">
           <a class="dropdown-item"
              (click)="navItemClick($event)"
-             routerLink="/about">{{ 'menu.about' | translate }}</a>
+             routerLink="/about">{{ 'menu.infoBlog' | translate }}</a>
           <a class="dropdown-item"
              (click)="navItemClick($event)"
              routerLink="/contacts">{{ 'menu.contacts' | translate }}</a>
